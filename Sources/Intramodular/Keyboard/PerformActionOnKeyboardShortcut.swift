@@ -7,7 +7,7 @@
 import Swift
 import SwiftUI
 
-@available(iOS 14.0, OSX 10.16, tvOS 14.0, *)
+@available(OSX 10.16, tvOS 14.0, *)
 @available(watchOS, unavailable)
 @usableFromInline
 struct PerformActionOnKeyboardShortcut: ViewModifier {
@@ -39,7 +39,7 @@ struct PerformActionOnKeyboardShortcut: ViewModifier {
 
 extension View {
     /// Adds an action to perform when this view recognizes a keyboard shortcut.
-    @available(iOS 14.0, OSX 10.16, tvOS 14.0, *)
+    @available(OSX 10.16, tvOS 14.0, *)
     @available(watchOS, unavailable)
     @inlinable
     public func onKeyboardShortcut(
@@ -50,7 +50,7 @@ extension View {
     }
     
     /// Adds an action to perform when this view recognizes a keyboard shortcut.
-    @available(iOS 14.0, OSX 10.16, tvOS 14.0, *)
+    @available(OSX 10.16, tvOS 14.0, *)
     @available(watchOS, unavailable)
     @inlinable
     public func onKeyboardShortcut(
